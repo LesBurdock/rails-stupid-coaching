@@ -1,0 +1,26 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$ask: #F4F4F4;
+
+body {
+  background: $ask; // Using this variable
+}
+
+h1{
+  font: Roboto;
+}
+
+p{
+  font-style:italic;
+}
+
+#submit{
+  height: 20px;
+  width: 300px;
+  text-transform: uppercase;
+}
+
+#answer{
+  background-color: #F3F6DA;
+}
